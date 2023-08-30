@@ -86,7 +86,7 @@ if __name__ == "__main__":
     #-----------------------------------------------------------------
     # The functions for Abel inversion was tested with the code below
 
-    # radiation coefficient test function
+    # test function for emission coefficient
     emission_coefficient = lambda r: np.where(abs(r) < 1, 1 - 2 * r ** 2 + r ** 4, 0)
 
     # test function for integrated radiance
